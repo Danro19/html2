@@ -1,0 +1,108 @@
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+.icon {
+    grid-column: span 3 / span 3;
+}
+
+.compras {
+    grid-column-start: 4;
+}
+.compras1 {
+
+        list-style: none;
+    
+}
+ul.compras1 li{
+    display: inline;
+}
+
+.barra {
+    grid-row: span 5 / span 5;
+    grid-column-start: 5;
+    width: 200px;
+    height: 940px;
+    background-color: black;
+    color:white;
+    position: relative;
+    top: 0px; left: 180px;
+}
+.barra1{
+    list-style: none;
+}
+.uno  {
+    position: relative;
+    top:10px;
+    left:50px;
+
+}
+.dos  {
+    position: relative;
+    top:100px;
+   left:35px;
+    
+
+}
+.tres  {
+    position: relative;
+    top:280px;
+    left:50px;
+
+}
+.cuatro  {
+    position: relative;
+    top:300px;
+    left:50px;
+
+}
+.cinco  {
+    position: relative;
+    top:320px;
+   left:50px
+
+}
+.seis  {
+    position: relative;
+    top:750px;
+   left:50px
+
+}
+
+.tarjetaMetro {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+    
+}
+.tarjetaMetro img{
+    width: 600px;
+}
+
+
+.comprarTarjeta {
+    grid-column: span 3 / span 3;
+    grid-row-start: 5;
+}
+
+.iconCompra {
+    grid-column-start: 4;
+    grid-row-start: 5;
+    background-color: #D5FF43;
+    
+}
+.imgMetro {
+    position:relative;
+    top: 15px;;
+    left:80px;
+
+}
+.sCompra {
+    position:relative;
+    left:150px;
+    
+
+}
